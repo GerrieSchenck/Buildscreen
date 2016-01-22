@@ -301,8 +301,6 @@
     <Content Include="fonts\icons.woff" />
     <Content Include="fonts\QuattrocentoSans-Bold.ttf" />
     <Content Include="fonts\QuattrocentoSans-Regular.ttf" />
-    <None Include="Properties\PublishProfiles\buildscreen - Azure production.pubxml" />
-    <None Include="Properties\PublishProfiles\Buildscreen - Azure test.pubxml" />
     <None Include="Properties\PublishProfiles\BuildScreen File System.pubxml" />
     <None Include="Properties\PublishProfiles\LiveSites.pubxml" />
     <None Include="readme.txt" />
