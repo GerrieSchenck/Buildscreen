@@ -141,9 +141,9 @@ body {
 /*------------- ITEM CONTENT ---------------*/
 
 .item-title {
-    color: white;
+    color: black;
     /*font-family: 'segoe_uisemilight';*/
-    font-weight: 400;
+    font-weight: 800;
     margin-bottom: 5px;
     margin-top: 5px;
     margin-top: 5px;
@@ -250,7 +250,7 @@ body {
 
 
     .item-title {
-        font-size: 1.6vw;
+        font-size: 1.9vw;
         margin-bottom: -0.5vw;
     }
 
