@@ -227,22 +227,22 @@ namespace OrbitOne.BuildScreen.Services.Tfs
             IBuildDetail build)
         {
             var testResults = new Dictionary<string, int>();
-            try
-            {
-                var testProject = testService.GetTeamProject(teamProjectNode.Resource.DisplayName);
-                var testRun = testProject.TestRuns.ByBuild(build.Uri).FirstOrDefault();
+            //try
+            //{
+            //    var testProject = testService.GetTeamProject(teamProjectNode.Resource.DisplayName);
+            //    var testRun = testProject.TestRuns.ByBuild(build.Uri).FirstOrDefault();
 
-                if (testRun != null)
-                {
-                    testResults.Add("PassedTests", testRun.PassedTests);
-                    testResults.Add("TotalTests", testRun.TotalTests);
-                }
-            }
-            catch (Exception e)
-            {
-                LogService.WriteError(e);
-                throw;
-            }
+            //    if (testRun != null)
+            //    {
+            //        testResults.Add("PassedTests", testRun.PassedTests);
+            //        testResults.Add("TotalTests", testRun.TotalTests);
+            //    }
+            //}
+            //catch (Exception e)
+            //{
+            //    LogService.WriteError(e);
+            //    throw;
+            //}
             return testResults;
         }
     }
